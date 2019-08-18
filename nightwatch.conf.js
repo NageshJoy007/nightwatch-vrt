@@ -27,7 +27,7 @@
             "baseline_suffix": '.baseline',
             //"diff_screenshots_path": ''
             "diff_suffix": '.diff',
-            "threshold": 0.5,
+            "threshold": 0.05,
             "prompt": true,
             "always_save_diff_screenshot": false
         },

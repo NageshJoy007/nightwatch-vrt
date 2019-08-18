@@ -8,7 +8,7 @@ module.exports = {
       .waitForElementVisible('body', 3000)
       .assert.title('Google')
       .assert.visible('input[type=text]')
-      .assert.screenshotIdenticalToBaseline('body', 'homepage' ,{threshold: 0.5})
+      .assert.screenshotIdenticalToBaseline('body', 'homepage' ,{threshold: 0.05})
     },
  
   'Step 2: Search for a key word' : function (client) {
@@ -18,7 +18,7 @@ module.exports = {
       .click('input[name=btnK]')
       .pause(1000)
       .assert.title('Nightwatch - Google Search')
-      .assert.screenshotIdenticalToBaseline('body', 'searchresultspage' ,{threshold: 0.5})
+      .assert.screenshotIdenticalToBaseline('body', 'searchresultspage' ,{threshold: 0.05})
       .end();
   }
 };
