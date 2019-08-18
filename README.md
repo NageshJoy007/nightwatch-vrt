@@ -10,9 +10,9 @@ This project is extending my [nightwatch-poc](https://github.com/NageshJoy007/ni
 
 ### Setup 
 
-* Install node via `brew install node` Or download [Node.js](https://nodejs.org/en/download/)
+* Install node via `  $ brew install node  ` Or download [Node.js](https://nodejs.org/en/download/)
 
-* Do  `git clone https://github.com/NageshJoy007/nightwatch-poc.git`
+* Do  `  $ git clone https://github.com/NageshJoy007/nightwatch-poc.git  `
 
 * To download required node_modules specified in [package.json](./package.json)  `npm install`
 
@@ -22,7 +22,15 @@ Go into project folder and run below commands:
 
 1) To run your tests
 
-   `$ npm test `    Or   `$ nightwatch ./tests `
+   ` $ npm test `      Or       ` $ nightwatch ./tests  `
+
+2) To run and compare your tests with full page screenshots
+
+    - Added a util for resizeWindow to pageScrollWidth, pageScrollHeight.
+    
+    - Added `chrome-headless` configuration to [nightwatch.conf.js](./nightwatch.conf.js) to support full page screenshot.
+
+   ` $ nightwatch ./tests -e chrome-headless `
 
 ### Output
 
