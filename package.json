@@ -12,7 +12,7 @@
     "chromedriver": "^75.1.0",
     "fs": "0.0.1-security",
     "geckodriver": "^1.16.2",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.5.3",
     "nightwatch": "^1.2.1",
     "nightwatch-html-reporter": "^2.0.6",
     "jimp": "^0.2.28",
